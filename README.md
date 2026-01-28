@@ -29,3 +29,7 @@ To use the **Delete Case** and **Delete Detection** features, the extension will
 - `src/content/content.js`: Main logic for DOM manipulation and feature injection.
 - `src/menu/`: UI and logic for the extension settings.
 - `manifest.json`: Extension configuration and permissions.
+
+---
+
+**Disclaimer**: This extension is currently in alpha and is intended to assist developers and administrators by adding small pieces of functionality to the site.
