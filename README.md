@@ -7,7 +7,7 @@ Wirespeed Tweaks is a Chrome Extension designed to enhance the Wirespeed interfa
 - **Navigation Shortcuts**: Adds quick links to common assets (IPs, Files, Processes, Locations) directly in the sidebar.
 - **Delete Case Button**: Adds a convenient "Delete Case" button to the Quick Actions section on case pages (requires an API Key).
 - **Support Chat**: Adds a "Chat" link to the Support section for easier access to assistance.
-- **Customizable**: Enable or disable tweaks through the extension popup.
+- **Customizable**: Enable or disable tweaks through the extension menu.
 
 ## Installation
 
@@ -18,15 +18,14 @@ Wirespeed Tweaks is a Chrome Extension designed to enhance the Wirespeed interfa
 
 ## Configuration
 
-To use the **Delete Case** feature, you must provide your Wirespeed API Key:
+To use the **Delete Case** and **Delete Detection** features, the extension will automatically attempt to use your session token (`AUTH_KEY`) from the Wirespeed site.
 
-1. Click on the Wirespeed Tweaks icon in your browser toolbar.
-2. Enter your **API Key**.
-3. Toggle **Enable Tweaks** to "On".
-4. The tweaks will automatically apply when you visit `*.wirespeed.co`.
+1. Click on the Wirespeed Tweaks icon in your browser toolbar to open the **Side Panel**.
+2. Set **Global Enable** to "On".
+3. The tweaks will automatically apply when you visit `*.wirespeed.co`.
 
 ## Development
 
 - `src/content/content.js`: Main logic for DOM manipulation and feature injection.
-- `src/popup/`: UI and logic for the extension settings.
+- `src/menu/`: UI and logic for the extension settings.
 - `manifest.json`: Extension configuration and permissions.

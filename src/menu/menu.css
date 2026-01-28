@@ -1,0 +1,32 @@
+/* Custom styles for Wirespeed Tweaks menu */
+/* Most styling is handled by Tailwind CSS in menu.html */
+
+body {
+  margin: 0;
+  min-width: 300px;
+  overflow: hidden;
+}
+
+/* Custom styles for the select to make it look like a toggle */
+select#enabled {
+  padding-right: 0.5rem;
+  background-image: none;
+}
+
+/* Scrollbar styling */
+main::-webkit-scrollbar {
+  width: 6px;
+}
+
+main::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+main::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 10px;
+}
+
+main::-webkit-scrollbar-thumb:hover {
+  background: #cbd5e1;
+}

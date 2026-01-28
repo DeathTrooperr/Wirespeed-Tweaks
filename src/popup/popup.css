@@ -1,9 +1,0 @@
-/* Custom styles for Wirespeed Tweaks popup */
-/* Most styling is handled by Tailwind CSS in popup.html */
-
-body {
-  margin: 0;
-  width: 350px;
-  min-height: 200px;
-  overflow-x: hidden;
-}
