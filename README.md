@@ -5,7 +5,8 @@ Wirespeed Tweaks is a Chrome Extension designed to enhance the Wirespeed interfa
 ## Features
 
 - **Navigation Shortcuts**: Adds quick links to common assets (IPs, Files, Processes, Locations) directly in the sidebar.
-- **Delete Case Button**: Adds a convenient "Delete Case" button to the Quick Actions section on case pages (requires an API Key).
+- **Delete Case Button**: Adds a convenient "Delete Case" button to the Quick Actions section on case pages.
+- **Delete Detection Button**: Adds a convenient "Delete Detection" button to the Actions dropdown on detection pages.
 - **Support Chat**: Adds a "Chat" link to the Support section for easier access to assistance.
 - **Customizable**: Enable or disable tweaks through the extension menu.
 
